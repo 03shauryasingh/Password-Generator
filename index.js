@@ -91,9 +91,13 @@ const characters = [
   "?",
   "/",
 ];
+let showPassBtn = document.getElementById("pass");
 
-let passBtn = document.getElementById("pass");
+for (let i = 1; i < characters.length; i++) {
+  let randPass = Math.floor(Math.random() * 9);
+  console.log([i]);
+}
 
-function showPassBtn() {
-  passBtn.textContent = "hello Hi am shaurya";
+function showPass() {
+  showPassBtn.textContent = "hello";
 }

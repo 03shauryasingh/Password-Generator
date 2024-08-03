@@ -48,16 +48,21 @@ hr {
 
 .pass-el {
   display: flex;
+  border: 1px solid white;
+
+  width: 220px;
+  height: 30px;
 }
 
-.pass {
+#pass {
   display: flex;
   flex-direction: column;
-  background-color: #4adf87;
+  background-color: #27354a;
   margin-top: 0;
-  margin-left: 10px;
-  width: 200px;
+  width: 180px;
   height: 30px;
-  color: white;
-  font-size: 20px;
+  color: #4adf87;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
 }
